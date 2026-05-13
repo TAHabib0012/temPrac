@@ -1,6 +1,7 @@
 "use client";
 
 import { Geist } from "next/font/google";
+import { motion } from "framer-motion";
 import { MagneticPrimaryLink } from "@/components/shared/MagneticPrimaryLink";
 import { HeroCapabilityTags } from "./HeroCapabilityTags";
 import { HeroResearchLink } from "./HeroResearchLink";
@@ -17,13 +18,24 @@ export function Hero() {
       aria-labelledby="hero-heading"
       className="relative isolate flex w-full min-h-screen flex-col justify-center overflow-hidden bg-background px-6 py-20 sm:px-10 md:px-14 lg:px-20 transition-colors duration-500"
     >
-      {/* High-Level System Status Bar */}
       <StatusHeader />
 
-      <div className="relative z-10 mx-auto w-full max-w-6xl mt-12 sm:mt-0">
+      {/* UPDATED TIMING:
+          - Delay dropped from 2.2s to 0.4s (instant feeling)
+          - Duration shortened to 0.8s for a snappier "pop"
+          - Scale reduced to 1.02 so it doesn't have as far to travel
+      */}
+      <motion.div 
+        initial={{ scale: 1.02, opacity: 0, filter: "brightness(0.8) blur(4px)" }}
+        animate={{ scale: 1, opacity: 1, filter: "brightness(1) blur(0px)" }}
+        transition={{ 
+          duration: 0.8, 
+          ease: [0.16, 1, 0.3, 1], 
+          delay: 0.4 // This triggers while the preloader is still finishing its vanish
+        }}
+        className="relative z-10 mx-auto w-full max-w-6xl mt-12 sm:mt-0"
+      >
         <div className="space-y-12 md:space-y-16">
-          
-          {/* Main Content Grid */}
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16 items-start">
             
             {/* Left Side: Name & Identity */}
@@ -50,9 +62,7 @@ export function Hero() {
                 & Project Coordinator
               </p>
 
-              <div
-                className={`flex flex-col items-start gap-5 ${geistSans.className}`}
-              >
+              <div className={`flex flex-col items-start gap-5 ${geistSans.className}`}>
                 <MagneticPrimaryLink href="#management">
                   View Strategic Map
                 </MagneticPrimaryLink>
@@ -64,14 +74,19 @@ export function Hero() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Subtle Aesthetic Detail */}
-      <div className="absolute bottom-12 left-6 md:left-14 lg:left-20 hidden md:flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-muted-foreground/30">
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1, duration: 0.5 }} // Comes in almost immediately
+        className="absolute bottom-12 left-6 md:left-14 lg:left-20 hidden md:flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-muted-foreground/30"
+      >
         <span className="text-primary">System Ver 1.6.2</span>
         <div className="h-px w-8 bg-border" />
         <span>Operational Alignment</span>
-      </div>
+      </motion.div>
     </section>
   );
 }
