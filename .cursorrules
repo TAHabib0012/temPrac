@@ -1,0 +1,741 @@
+AI-Assisted Portfolio Development Master Document
+Project Title
+Tahmid Habib — Cinematic Management-Focused Portfolio Website
+
+01. PROJECT OVERVIEW
+Objective
+Build a premium cinematic portfolio website that presents Tahmid Habib as:
+a management-focused technology professional,
+an entrepreneur with real execution experience,
+a project coordinator with leadership capability,
+and a research-driven technical thinker.
+The portfolio must feel:
+premium,
+futuristic,
+modern,
+cinematic,
+professional,
+and believable.
+The website should combine:
+corporate structure,
+startup energy,
+technical depth,
+and immersive interactions.
+
+02. PROJECT POSITIONING
+Primary Identity
+Management-focused tech professional.
+
+Secondary Identity
+Entrepreneur
+Project Coordinator
+Research Enthusiast
+Technical Problem Solver
+Startup-Oriented Thinker
+
+Important Direction
+The portfolio must NOT feel:
+like a developer-only portfolio,
+like a flashy startup founder page,
+or like an overhyped AI engineer portfolio.
+Instead it should feel:
+strategic,
+mature,
+executive,
+innovative,
+technically aware,
+and operationally capable.
+
+03. PERSONAL INFORMATION TO INCLUDE
+Name
+Md. Tahmid Ahmed Habib
+
+Location
+Sylhet, Bangladesh
+
+Education
+B.Sc in Computer Science & Engineering
+Metropolitan University
+
+Professional Experience
+Project Coordinator / Project Management experience
+NexÉtoile
+Startup coordination experience
+Team collaboration experience
+Multi-disciplinary coordination
+
+Entrepreneurial Experience
+NARKO
+Co-founder
+Management-oriented clothing brand.
+SPARK
+Co-founder
+Started as a small clothing business and evolved into a major local brand.
+
+Research & Technical Interests
+Artificial Intelligence
+Machine Learning
+NLP
+Computer Vision
+Multimodal systems
+Research-oriented learning
+
+Competitive Programming
+Include:
+Codeforces
+CodeChef
+problem solving background
+
+04. PROFESSIONAL LINKS
+LinkedIn
+urlLinkedIn Profilehttps://www.linkedin.com/in/tahmidhabib
+
+GitHub
+urlGitHub Profilehttps://github.com/TAHabib0012
+
+Codeforces
+urlCodeforces Profilehttps://codeforces.com/profile/TAHabib
+
+CodeChef
+urlCodeChef Profilehttps://www.codechef.com/users/tahabib
+
+NARKO Facebook
+urlNARKO Facebookhttps://web.facebook.com/profile.php?id=61575888326817
+
+NARKO Instagram
+urlNARKO Instagramhttps://www.instagram.com/narkoclub?igsh=MW1xYTE5bWc2bzFo
+
+05. DESIGN REFERENCES
+Figma Inspiration References
+Reference 01
+urlBusiness Services Consulting Website Referencehttps://www.figma.com/design/9by5EKADUHKhfwPD7ys95Q/Business-Services---Consulting-website--Copy---Copy-?node-id=0-1&t=CD9PQB7wpDUOs0er-1
+Reference 02
+urlVerde Oeste Referencehttps://www.figma.com/design/z0OJAPYQ6JnsuZbLV0FgHQ/Verde-Oeste--Copy-?node-id=0-1&p=f&t=dRYKOvNehU3KsWso-0
+Reference 03
+urlMint Painting Referencehttps://www.figma.com/design/FAdU3E3fyCQm6ekC4WDJP3/Mint-Painting--Copy---Copy-?node-id=0-1&t=1zS9eqlpuLsvv3Bc-1
+
+Animation Reference
+Webflow Motion Reference
+urlSaisei Webflow Inspirationhttps://saisei-sbj.webflow.io/
+
+Dark Mode Reference
+Color & Atmosphere Reference
+urlTime To Build Referencehttps://www.timetobuild.live/
+
+06. VISUAL DIRECTION
+Overall Style
+Blend:
+corporate professionalism,
+startup innovation,
+cinematic Webflow interactions,
+modern SaaS structure,
+and futuristic minimalism.
+
+Website Atmosphere
+The website should feel:
+immersive,
+premium,
+cinematic,
+structured,
+futuristic,
+calm,
+and executive.
+
+Design Personality
+Reliable
+Intelligent
+Modern
+Professional
+Strategic
+Thoughtful
+Innovative
+
+07. COLOR SYSTEM
+LIGHT MODE
+Base Colors
+warm white
+off-white
+silver gray
+soft neutral surfaces
+
+Accent Colors
+muted emerald
+soft cyan
+subtle gradient glow
+silver lighting
+
+Important Rule
+Avoid:
+dark blue dominance,
+neon overload,
+oversaturated colors.
+
+DARK MODE
+Base Colors
+graphite black
+charcoal
+muted slate gray
+
+Accent Colors
+soft green glow
+muted cyan
+cinematic glass lighting
+
+Important Rule
+Dark mode should feel:
+premium,
+cinematic,
+elegant,
+and readable.
+Not cyberpunk.
+
+08. TYPOGRAPHY SYSTEM
+Heading Fonts
+Recommended:
+Clash Display
+Cabinet Grotesk
+General Sans
+
+Body Fonts
+Recommended:
+Inter
+Satoshi
+Plus Jakarta Sans
+
+Typography Style
+executive
+modern
+spacious
+editorial
+premium
+
+09. WEBSITE STRUCTURE
+FINAL SECTION ORDER
+Hero Section
+Trust Metrics
+About Section
+Experience Timeline
+Management & Operations
+Research & Technical Depth
+Featured Projects
+Entrepreneurship Journey
+Skills Ecosystem
+Testimonials
+Contact & Resume
+Footer
+
+10. HERO SECTION PLAN
+Goal
+Immediately establish:
+professionalism,
+leadership,
+innovation,
+and modern identity.
+
+Layout
+Left Side
+Name
+Headline
+Supporting description
+CTA buttons
+Social links
+Right Side
+portrait/video
+floating metrics
+cinematic visuals
+animated gradients
+
+Headline Direction
+Do NOT position as:
+"Just a developer."
+Instead position around:
+leadership,
+coordination,
+systems,
+execution,
+and innovation.
+
+Hero Motion
+Use:
+layered gradients
+floating cards
+masked text reveal
+cinematic blur
+soft parallax
+ambient motion
+
+11. TRUST METRICS SECTION
+Purpose
+Build credibility subtly.
+
+Suggested Metrics
+projects coordinated
+startup experience
+technical domains
+collaborative teams
+research interests
+
+Motion
+animated counters
+glow reveal
+soft hover depth
+
+12. ABOUT SECTION
+Purpose
+Tell the professional story.
+
+Narrative Direction
+Show evolution from:
+student,
+entrepreneur,
+coordinator,
+researcher,
+management-focused professional.
+
+Layout Style
+editorial storytelling
+split layout
+cinematic spacing
+layered imagery
+
+13. EXPERIENCE TIMELINE
+Include
+NexÉtoile
+NARKO
+SPARK
+academic growth
+leadership progression
+
+Animation Style
+sticky timeline
+scroll progression
+cinematic card reveals
+glowing path animation
+
+14. MANAGEMENT & OPERATIONS SECTION
+Purpose
+This is the signature differentiator.
+
+Focus Areas
+coordination
+leadership
+operations
+communication
+workflow systems
+execution
+planning
+
+Visual Style
+dashboard-inspired
+premium management cards
+clean visual hierarchy
+structured grids
+
+15. RESEARCH & AI SECTION
+Purpose
+Support management identity with technical depth.
+
+Topics
+AI/ML
+NLP
+CV
+multimodal research
+technical systems
+university projects
+
+Important Rule
+Research must SUPPORT the identity.
+Not dominate it.
+
+16. FEATURED PROJECTS SECTION
+Include
+university projects
+AI projects
+management systems
+entrepreneurial systems
+branding-related systems
+
+Layout Style
+cinematic alternating blocks
+large visuals
+hover interaction
+minimal text
+
+Motion
+hover expansion
+stagger reveal
+image parallax
+video reveal
+
+17. ENTREPRENEURSHIP SECTION
+Include
+SPARK journey
+NARKO journey
+leadership growth
+operational understanding
+customer understanding
+coordination experience
+
+Important Rule
+Avoid:
+hustle culture aesthetics,
+fake startup energy,
+exaggerated success language.
+
+18. SKILLS SECTION
+Important Rule
+Do NOT use:
+generic progress bars.
+
+Better Approaches
+Use:
+capability clusters,
+interconnected systems,
+expertise maps,
+categorized ecosystems.
+
+Suggested Categories
+Management
+leadership
+operations
+planning
+coordination
+Technical
+Python
+AI/ML
+NLP
+CV
+Git
+research
+Business & Creative
+branding
+strategy
+communication
+product thinking
+
+19. CONTACT SECTION
+Include
+LinkedIn
+GitHub
+Codeforces
+Resume download
+Contact form
+Email
+
+Style
+executive
+spacious
+minimal
+premium
+
+20. MOTION SYSTEM
+Motion Philosophy
+Motion should:
+support storytelling,
+feel cinematic,
+and feel expensive.
+Never distracting.
+
+SCROLL ANIMATIONS
+Use
+layered reveals
+masked transitions
+blur reveals
+sticky storytelling
+parallax movement
+
+Avoid
+excessive bounce
+aggressive rotation
+random movement
+chaotic particles
+
+HOVER ANIMATIONS
+Use
+magnetic buttons
+glow borders
+soft scaling
+tilt depth
+glass hover
+
+BACKGROUND MOTION
+Use
+ambient gradients
+cinematic blur
+floating mesh lighting
+subtle moving glows
+
+21. RECOMMENDED TECH STACK
+Frontend
+React
+Next.js
+Tailwind CSS
+
+Animation
+Framer Motion
+GSAP
+Lenis smooth scroll
+
+UI System
+shadcn/ui
+
+22. RECOMMENDED PROJECT STRUCTURE
+/project
+/components
+/sections
+/animations
+/styles
+/assets
+/hooks
+/data
+
+23. AI WORKFLOW STRATEGY
+IMPORTANT RULE
+Never ask AI tools to:
+"Build the entire portfolio at once."
+That creates:
+inconsistent design,
+broken responsiveness,
+corrupted architecture,
+duplicated code,
+and unstable animation systems.
+
+CORRECT WORKFLOW
+PHASE 01 — FOUNDATION
+Generate:
+colors
+typography
+buttons
+cards
+spacing
+grid system
+dark/light mode
+ONLY.
+
+PHASE 02 — STATIC LAYOUTS
+Generate:
+Hero
+About
+Experience
+Projects
+Contact
+WITHOUT advanced animations.
+
+PHASE 03 — RESPONSIVENESS
+Generate:
+tablet layouts
+mobile layouts
+typography scaling
+spacing optimization
+
+PHASE 04 — ANIMATION
+Generate:
+Framer Motion
+GSAP
+cinematic interactions
+smooth scroll systems
+ONLY after layout stabilization.
+
+PHASE 05 — OPTIMIZATION
+Finalize:
+performance
+accessibility
+cleanup
+consistency
+responsiveness
+animation polish
+
+24. BEST AI TOOL USAGE
+Claude
+Best for:
+architecture
+React structure
+large component generation
+UI systems
+
+Gemini
+Best for:
+visual ideas
+motion concepts
+UI inspiration
+ecosystem support
+
+Kimi
+Best for:
+continuation
+long-context refinement
+polishing
+structured continuation
+
+ChatGPT
+Best for:
+planning
+architecture
+storytelling
+systems
+optimization
+consistency
+
+25. AI LIMIT PROTECTION SYSTEM
+IMPORTANT
+All AI tools must work modularly.
+Never allow full project rewrites.
+
+UNIVERSAL AI DEVELOPMENT RULES
+IMPORTANT DEVELOPMENT RULES:
+Work modularly.
+Never rewrite unrelated sections.
+Never regenerate the whole project unless requested.
+Maintain consistency with the existing design system.
+Preserve responsiveness.
+Preserve dark/light mode compatibility.
+Keep animations performant and cinematic.
+Use reusable architecture.
+Keep components isolated.
+Use clean file organization.
+
+26. SAFE STOP SYSTEM
+IMPORTANT
+When approaching context/token limit:
+AI must stop safely before corruption.
+
+SAFE STOP COMMAND
+If approaching token/context limit:
+STOP IMMEDIATELY and output:
+COMPLETED WORK
+MODIFIED FILES
+CURRENT FILE STATUS
+REMAINING TASKS
+LAST SAFE CHECKPOINT
+NEXT STEP TO CONTINUE
+Then wait for:
+CONTINUE FROM CHECKPOINT
+
+27. RESUME COMMAND
+CONTINUE COMMAND
+CONTINUE FROM CHECKPOINT
+Use:
+previous architecture,
+previous animations,
+previous components,
+previous design system,
+and continue ONLY unfinished work.
+Do NOT rewrite completed sections.
+
+28. CRITICAL MODULAR RULE
+Every section must:
+have isolated logic,
+isolated animation,
+isolated styling,
+and isolated component structure.
+This prevents:
+corruption,
+duplication,
+and animation conflicts.
+
+29. PLACEHOLDER ASSET STRATEGY
+Use Placeholder Assets Initially
+Use:
+executive portraits
+startup office imagery
+dashboard visuals
+AI visualization graphics
+modern workspace photos
+cinematic background imagery
+
+Replace Later With
+personal photos
+project screenshots
+branding visuals
+team images
+real dashboards
+custom motion graphics
+
+30. RESPONSIVE DESIGN RULES
+Desktop
+Primary cinematic experience.
+
+Tablet
+reduced spacing
+simplified motion
+responsive stacking
+
+Mobile
+vertical layouts
+optimized readability
+reduced heavy animations
+simplified interactions
+
+31. FIGMA MAKE STRATEGY
+IMPORTANT
+Do NOT generate the entire portfolio at once.
+
+CORRECT FIGMA MAKE WORKFLOW
+STEP 01
+Generate design system.
+
+STEP 02
+Generate sections individually.
+
+STEP 03
+Combine manually.
+
+STEP 04
+Refine spacing & responsiveness.
+
+STEP 05
+Add motion planning.
+
+32. FIGMA MAKE PROMPTING RULES
+BAD PROMPT
+"Create my portfolio website."
+
+GOOD PROMPT
+Define:
+structure,
+typography,
+spacing,
+motion style,
+visual hierarchy,
+lighting behavior,
+interaction philosophy,
+and component behavior.
+
+33. RECOMMENDED VISUAL KEYWORDS
+Use these keywords while prompting:
+cinematic
+premium
+modern SaaS
+startup-inspired
+executive
+consulting aesthetic
+immersive
+futuristic minimal
+glassmorphism
+ambient lighting
+editorial spacing
+Webflow-inspired
+layered gradients
+high-end UI
+cinematic motion
+
+34. FINAL PROJECT GOAL
+The final portfolio should feel like:
+"A modern management-focused technology professional capable of coordinating systems, leading execution, understanding technology deeply, and building innovative ideas with professional maturity."
+
+FINAL QUALITY RULES
+The portfolio must remain:
+authentic,
+believable,
+premium,
+cinematic,
+and professionally structured.
+It must NEVER feel:
+immature,
+exaggerated,
+overhyped,
+flashy without purpose,
+or technically chaotic.
+
+END OF MASTER DEVELOPMENT DOCUMENT
+
