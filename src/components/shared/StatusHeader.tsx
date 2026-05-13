@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 
 export function StatusHeader() {
   const [time, setTime] = useState("");
@@ -25,8 +24,13 @@ export function StatusHeader() {
   }, []);
 
   return (
-    <div className="absolute top-8 left-0 z-20 w-full px-6 md:px-10 lg:px-20">
-      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-border/40 pb-4">
+    /* UPDATED: 
+       - top-20 on mobile (to clear the logo) 
+       - top-8 on desktop (original look)
+    */
+    <div className="absolute top-20 left-0 z-20 w-full px-6 sm:top-8 md:px-10 lg:px-20">
+      <div className="flex flex-col gap-4 border-b border-border/40 pb-4 sm:flex-row sm:items-center sm:justify-between">
+        
         {/* Left: System Status */}
         <div className="flex items-center gap-3">
           <div className="relative flex h-2 w-2">
@@ -36,9 +40,11 @@ export function StatusHeader() {
           <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-foreground/80">
             System: <span className="text-primary">Operational</span>
           </p>
-          <span className="hidden h-4 w-[1px] bg-border/60 sm:block" />
-          <p className="hidden text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground sm:block">
-            Mode: <span className="text-foreground">Strategic Coordination</span>
+          
+          {/* Hidden on very small screens to prevent crowding */}
+          <span className="hidden h-4 w-[1px] bg-border/60 xs:block" />
+          <p className="hidden text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground xs:block">
+            Mode: <span className="text-foreground">Coordination</span>
           </p>
         </div>
 
@@ -46,7 +52,7 @@ export function StatusHeader() {
         <div className="flex items-center gap-6 text-[10px] font-bold uppercase tracking-[0.2em]">
           <div className="flex gap-2">
             <span className="text-muted-foreground/60">Local Time:</span>
-            <span className="text-foreground tabular-nums">{time}</span>
+            <span className="text-foreground tabular-nums whitespace-nowrap">{time}</span>
           </div>
           <div className="hidden gap-2 md:flex">
             <span className="text-muted-foreground/60">Origin:</span>
