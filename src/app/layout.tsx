@@ -37,7 +37,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full`}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col bg-background antialiased selection:bg-primary/20 selection:text-primary">
+      <body 
+        className="flex min-h-full flex-col bg-background antialiased selection:bg-primary/20 selection:text-primary"
+        suppressHydrationWarning
+      >
         <ThemeProvider>
           <AmbientShell>
             {/* Executive Logo Overlay - Moved inside Shell for visibility */}
