@@ -28,6 +28,7 @@ export function StrategicBrief() {
               className="relative aspect-[4/5] w-full max-w-[280px] overflow-hidden rounded-2xl border border-border/60 bg-muted/10 p-2 shadow-2xl"
             >
               <div className="relative h-full w-full overflow-hidden rounded-xl grayscale transition-all duration-700 hover:grayscale-0">
+                {/* Ensure path is /temPrac/me.jpeg for GitHub Pages if needed */}
                 <Image 
                   src="/me.jpeg" 
                   alt="Md. Tahmid Ahmed Habib"
@@ -36,11 +37,9 @@ export function StrategicBrief() {
                   priority
                 />
                 
-                {/* Tactical Scanline Overlay */}
                 <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.05)_50%),linear-gradient(90deg,rgba(255,0,0,0.01),rgba(0,255,0,0.01),rgba(0,0,255,0.01))] bg-[size:100%_4px,3px_100%]" />
               </div>
               
-              {/* Hex-System ID Tag */}
               <div className="absolute bottom-4 left-4 right-4 rounded-lg border border-white/5 bg-background/80 px-3 py-2.5 backdrop-blur-xl">
                 <div className="flex items-center justify-between">
                   <div className="flex flex-col gap-0.5">
@@ -75,10 +74,11 @@ export function StrategicBrief() {
               transition={{ duration: 0.8 }}
               className="font-heading-display text-3xl font-medium leading-[1.1] tracking-tight text-foreground md:text-5xl lg:text-6xl"
             >
-              Specializing in the intersection of <span className="text-primary italic">Bioinformatics</span> and technical orchestration.
+              Architecting the synergy between <span className="text-primary italic">AI Intelligence</span> and technical project leadership.
             </motion.h3>
             
             <div className="mt-12 grid grid-cols-1 gap-10 border-t border-border/60 pt-10 md:grid-cols-2">
+              {/* PM Focus */}
               <motion.div 
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -86,14 +86,15 @@ export function StrategicBrief() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="space-y-4"
               >
-                <p className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground/60">
-                  Strategy
+                <p className="text-[11px] font-bold uppercase tracking-widest text-primary">
+                  Project Orchestration
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  I facilitate the bridge between complex data structures and actionable project management. My approach is rooted in precision, ensuring every active node aligns with strategic objectives.
+                  I lead technical teams through complex development lifecycles. By blending Agile methodologies with a deep understanding of software architecture, I transform high-level vision into scalable, deployed systems.
                 </p>
               </motion.div>
               
+              {/* AI/ML Focus */}
               <motion.div 
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -101,11 +102,11 @@ export function StrategicBrief() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="space-y-4"
               >
-                <p className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground/60">
-                  Focus
+                <p className="text-[11px] font-bold uppercase tracking-widest text-primary">
+                  Neural Intelligence
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  Currently focused on high-precision technical management frameworks and exploring automated coordination within computer vision and genomic data environments.
+                  Specializing in multimodal deep learning, I leverage architectures like BERT and ResNet to solve real-world problems. My current work focuses on fusion-based classification and optimizing CV/NLP pipelines for performance.
                 </p>
               </motion.div>
             </div>
